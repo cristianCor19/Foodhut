@@ -11,7 +11,7 @@ Esto hace que al hacer click en el menu vaya al sitio seleccionado*/
 }
 
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: sans-serif;
 }
 .precioBG {
   background-color: #333;
@@ -40,10 +40,10 @@ header {
   height: 100vh;
   background-image: linear-gradient(
       to top,
-      rgba(10, 10, 10, 0.6) 0%,
-      rgba(12, 12, 12, 0.6) 100%
+      rgba(10, 10, 10, 0) 0%,
+      rgba(12, 12, 12, 0) 100%
     ),
-    url(../img/main-logo-2.jpg);
+    url(../img/Cancha.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -78,8 +78,9 @@ header {
   right: 0;
   width: 30%;
   height: 100%;
-  background-image: linear-gradient(to top, #1e1b1d 0%, #676451 100%);
+  /* background-image: linear-gradient(to top, #1e1b1d 0%, #676451 100%); */
   /* background-color: rgba(10, 10, 10, 1); */
+  background-color: #333;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly; /*Distribuye el espacio*/
