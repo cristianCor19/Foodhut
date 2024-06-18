@@ -230,7 +230,7 @@ header {
 }
 
 .img-gallery {
-  object-fit: cover;
+  object-fit: contain;
   width: 90%;
   height: 290px;
   display: block;
@@ -252,11 +252,12 @@ header {
 .border-menu{
   margin-bottom: 20px;
   border: 2px solid white;
-  padding: 5px;
+  /* padding: 5px; */
+  padding-left: 20px;
 }
 
 .sub-titulo-productos-menu{
-  /* font-family: "Cedarville Cursive", cursive; */
+  font-family: "Cedarville Cursive", cursive;
   text-align: center;
   font-weight: 700;
   color: white;
