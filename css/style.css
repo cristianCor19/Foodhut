@@ -453,6 +453,11 @@ footer {
   justify-content: flex-end;
 }
 
+.img-encuesta{
+  width: 28%;
+  margin-left: 65%;
+}
+
 .social-media-icon {
   display: inline-block;
   margin-left: 20px;
@@ -533,6 +538,11 @@ footer {
   .social-media {
     width: 80%;
     justify-content: space-evenly;
+  }
+
+  .img-encuesta{
+    width: 30%;
+    margin-left: 40%;
   }
 
   .social-media-icon {
